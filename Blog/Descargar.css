@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+
+.header::after {
+    content: "";
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+h1 {
+    text-align: center;
+    color: black;
+    display: block;
+    margin: 10px;
+    font-size: 4rem;
+}
+
+h2 {
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+}
+
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+p {
+    text-align:  justify;
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    
+}
+
+.info {
+    margin: 11%;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(35, 170, 8);
+}
+
+.footertext {
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    color: white;
+} 

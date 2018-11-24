@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+
+.header::after {
+    content: "";
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/colombia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+h1 {
+    text-align: center;
+    color: black;
+    display: block;
+    margin: 15px;
+    font-size: 4rem;
+}
+
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+p {
+    text-align:  center;
+    font-size: 2rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footertext {
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    color: white;
+} 

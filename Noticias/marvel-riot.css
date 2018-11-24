@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+
+.header::after {
+    content: "";
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/ashe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+h1 {
+    text-align: center;
+    color: rgb(39, 38, 38);
+    display: block;
+    margin: 15px;
+    font-size: 4rem;
+}
+
+
+.info {
+    text-align: justify;
+    margin: 7%;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    text-align: center;
+}
+a {
+    text-decoration-line: none;
+    text-decoration-color: none;
+    color: white;
+}
+
+.footertext {
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    color: white;
+} 
+
+@media screen and (max-width: 662px) {
+
+    img {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    img {
+        width: 280px;
+    }
+    a {
+        text-decoration-line: none;
+        text-decoration-color: none;
+        color: white;
+    }
+}
