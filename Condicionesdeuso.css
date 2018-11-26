@@ -3,7 +3,7 @@ body{
 }
 
 header {
-    background-color: black;
+    background-image: linear-gradient(to right top, #1b0e0e, #281f1d, #35302d, #44423f, #545453);
     color: white;
     height: 10vh;
     width: 100%;
@@ -14,18 +14,22 @@ h1 {
     margin: 0px;
     padding: 20px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
     text-decoration: white;
     color: green;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
     text-align: justify;
     margin: 3%;
+    font-family: 'Poppins', sans-serif;
 }
 
 h2 {
     margin-left: 7%;
+    font-family: 'Poppins', sans-serif;
 }
