@@ -8,7 +8,7 @@ body {
     content: "";
     height: 50vh;
     width: 100%;
-    background-image: url(../img/colombia.png);
+    background-image: url(../img/monument.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -18,11 +18,8 @@ h1 {
     text-align: center;
     color: black;
     display: block;
-    margin: 15px;
     font-size: 4rem;
-    font-family: 'Poppins', sans-serif;
 }
-
 
 nav {
     background-color: black;
@@ -30,18 +27,30 @@ nav {
     height: auto;
     font-size: 2rem;
     text-align: center;
-}
-
-
-p {
-    text-align:  center;
-    font-size: 2rem;
     font-family: 'Poppins', sans-serif;
 }
+
+.lim {
+    color: blue;
+    font-weight: bold;
+}
+
+p {
+    text-align:justify;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
 a {
     text-decoration: none;
     color: white;
+    margin: auto;
     font-family: 'Poppins', sans-serif;
+    
+}
+
+.info {
+    margin: 11%;
 }
 
 .footertext {
@@ -57,3 +66,21 @@ footer {
     width: 100%;
     color: white;
 } 
+
+img {
+   
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 662px) {
+
+    img {
+        width: 230px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}

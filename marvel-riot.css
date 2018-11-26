@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-image: linear-gradient(to top, #fbd9b6, #ffddd3, #ffe7ed, #fef4fc, #ffffff);
 }
 
 
@@ -19,6 +20,7 @@ h1 {
     display: block;
     margin: 15px;
     font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -38,6 +40,7 @@ a {
     text-decoration-line: none;
     text-decoration-color: none;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footertext {
@@ -51,7 +54,12 @@ footer {
     height: auto;
     width: 100%;
     color: white;
-} 
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
 
 @media screen and (max-width: 662px) {
 

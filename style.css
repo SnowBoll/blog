@@ -1,19 +1,21 @@
 body{
     margin: 0px;
+    background-image: linear-gradient(to top, #fbd9b6, #ffddd3, #ffe7ed, #fef4fc, #ffffff);
 }
 
 header {
     background-color: black;
     color: white;
-    height: 10vh;
+    height: 15vh;
     width: 100%;
 
 }
 
 h1 {
     margin: 0px;
-    padding: 20px;
+    padding-top: 50px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -43,9 +45,18 @@ footer {
 a {
     text-decoration: none;
     color: green;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footertext {
     margin: 0px;
     padding: 15px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
 }
