@@ -58,3 +58,14 @@ h2 {
 p{
     font-family: 'Poppins', sans-serif;
 }
+
+@media screen and (max-width: 662px) {
+
+    h2 {
+        font-size: 15px;
+    }
+    p {
+    font-size: 12px;
+    
+}
+}
