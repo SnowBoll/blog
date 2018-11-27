@@ -75,3 +75,10 @@ footer {
     width: 100%;
     color: white;
 } 
+
+@media screen and (max-width: 500px) {
+    p {
+        text-align: left;
+        font-size: 15px;
+    }
+}

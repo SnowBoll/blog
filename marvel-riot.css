@@ -73,9 +73,9 @@ p {
     img {
         width: 280px;
     }
-    a {
-        text-decoration-line: none;
-        text-decoration-color: none;
-        color: white;
+
+    p {
+        text-align: left;
+        font-size: 15px;
     }
 }
