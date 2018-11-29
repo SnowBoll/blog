@@ -8,7 +8,7 @@ body {
     content: "";
     height: 50vh;
     width: 100%;
-    background-image: url(../img/ashe.jpg);
+    background-image: url(../img/web-design.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -16,17 +16,9 @@ body {
 }
 h1 {
     text-align: center;
-    color: rgb(39, 38, 38);
+    color: black;
     display: block;
-    margin: 15px;
     font-size: 4rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-.info {
-    text-align: justify;
-    margin: 7%;
 }
 
 nav {
@@ -35,18 +27,37 @@ nav {
     height: auto;
     font-size: 2rem;
     text-align: center;
-}
-a {
-    text-decoration-line: none;
-    text-decoration-color: none;
-    color: white;
     font-family: 'Poppins', sans-serif;
+}
+
+.link {
+    color: rgb(62, 211, 82);
+    font-weight: bold;
+}
+
+p {
+    text-align:justify;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.info {
+    margin: 11%;
 }
 
 .footertext {
     margin: 0px;
     padding: 15px;
     text-align: center;
+    font-size: 1rem;
 }
 
 footer {
@@ -54,32 +65,29 @@ footer {
     height: auto;
     width: 100%;
     color: white;
-}
+} 
 
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+img {
+   display: inline;
 }
 
 @media screen and (max-width: 662px) {
 
-    img {
-        width: 380px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-
-    img {
-        width: 280px;
+    .setting {
+        width: 130px;
     }
 
-    p {
-        text-align: left;
-        font-size: 15px;
+    img {
+        width: 260px;
     }
 
     h1 {
         font-size: 2rem;
     }
+
+    p {
+    text-align: left;
+    font-size: 15px;
+    
+}
 }
