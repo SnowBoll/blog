@@ -181,3 +181,10 @@ display: none;
         font-size: 2rem;
     }
 }
+
+@media screen and (max-width: 460px) {
+
+    .galeria img {
+         width: 180px;
+     }
+ }
