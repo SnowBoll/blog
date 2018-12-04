@@ -190,8 +190,9 @@ display: none;
 
      .imagen img {
         width: 180px;
-        justify-content: center;
-        align-items: center;
+        margin-left: 30px;
+
+
     }
     .cerrar {
         width: 23px;
