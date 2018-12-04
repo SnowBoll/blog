@@ -190,13 +190,15 @@ display: none;
 
      .imagen img {
         width: 180px;
+        justify-content: center;
+        align-items: center;
     }
     .cerrar {
-        width: 20px;
-        height: 20px;
+        width: 23px;
+        height: 23px;
         margin: auto;
-        font-size: 20px;
-        padding: 1px;
+        font-size: 23px;
+        padding: 3px;
     }
 
  }
