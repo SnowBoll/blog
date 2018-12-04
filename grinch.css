@@ -189,7 +189,14 @@ display: none;
      }
 
      .imagen img {
-        width: 100px;
+        width: 180px;
+    }
+    .cerrar {
+        width: 20px;
+        height: 20px;
+        margin: auto;
+        font-size: 20px;
+        padding: 1px;
     }
 
  }
