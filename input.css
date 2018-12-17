@@ -1,9 +1,10 @@
 #myInput {
-    width: 100%; /* Full-width */
+    width: 28.5%; /* Full-width */
     font-size: 14px; /* Increase font-size */
     padding: 12px 20px 12px 0px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
     margin-bottom: 12px; /* Add some space below the input */
+
   }
   
   #myUL {
@@ -13,9 +14,9 @@
     margin: 0;
     display: none;
     position: absolute;
-    top: 90px;
-    left: 0;
-    width: 100%;
+    top: 44px;
+    left:388px;
+    width: 29.5%;
   }
   
   #myUL li a {
@@ -36,18 +37,24 @@
     @media screen and (max-width: 500px) {
 
       #myUL {
-        top: 93px;
+        top: 62px;
+        left: 50px;
+        width: 77.3%;
       }
       #myInput {
-        width: 90%;
+        width: 80%;
+        height: 10px;
       }
  }
+
   @media screen and (width: 320px) {
 
     #myUL {
-      top: 88px;
+      top: 62px;
+      width: 59.5%;
     }
     #myInput {
-      width: 90%;
+      width: 60%;
+      height: 10px;
     }
 }
