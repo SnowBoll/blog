@@ -1,6 +1,8 @@
-body{
+body, html{
     margin: 0px;
-    background-image: linear-gradient(to top, #fbd9b6, #ffddd3, #ffe7ed, #fef4fc, #ffffff);
+    background-color: white;
+    height: 100%;
+    /* background-image: linear-gradient(to top, #fbd9b6, #ffddd3, #ffe7ed, #fef4fc, #ffffff); */
 }
 
 /* todo el header */
@@ -32,7 +34,7 @@ header {
 }
 
 
-/* todo los posts*/
+ /* contenedor de todos los posts */
 .container {
     width: 90%;
     margin: auto;
@@ -43,11 +45,6 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-}
-
-img {
-    margin: auto;
-    width: 100%;
 }
 
 #container {
@@ -70,22 +67,30 @@ img {
 
 }
 
+img {
+    margin: auto;
+    width: 100%;
+}
+
 footer {
     background-color: black;
     height: auto;
     width: 100%;
     color: white;
     text-align: center;
+    position: fixed;
+    bottom:0;
+    left: 0;
 } 
-a {
-    text-decoration: none;
-    color: rgb(248, 19, 2);
-    font-family: 'Poppins', sans-serif;
-}
 
 .footertext {
     margin: 0px;
     padding: 15px;
+}
+a {
+    text-decoration: none;
+    color: rgb(248, 19, 2);
+    font-family: 'Poppins', sans-serif;
 }
 
 h2 {
