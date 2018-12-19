@@ -30,77 +30,61 @@
             <li>Snowboll</li>
             <li><a href="index.html">Posts</a></li>
             <li><a href="#">Imágenes</a></li>
-            <li><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Busca los post"></li>
+            <li><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Busca los posts"></li>
         </ul>
-        <div>
-            <ul id="myUL">
-                <li><a href="grinch.html">Imagenes del grinch 2018</a></li>
-                <li><a href="marvel-riot.html">Riot Games y Marvel Comics se alian para lanzar un comic de Ashe</a></li>
-              
-                <li><a href="Himno.html">Himno De Colombia</a></li>
-                <li><a href="Descargar.html">Como descargar musica o videos de Youtube</a></li>
-              
-                <li><a href="Monument.html">Recomendación #1: Monument Valley</a></li>
-                <li><a href="github-hostinger.html">Configurar un Dominio Hostinger con Github Pages</a></li>
-            </ul>
-    
-        </div>
     </header>
 
 
-    <section>
+    <section class="container grid" id="contain">
 
-        <div class="container grid">
+                <div id="container">
+                <a href="grinch.html"><img itemprop="image" src="img/portadaGrinch.jpg" alt="El Grinch"></a>
+                    <h2 itemprop="name">Imágenes Del Grinch 2018</h2>
+                    <p itemprop="description">He aquí os traigo algunas imágenes del Grinch la película 2018</p>
+                    
+                </div>
+                
+                <div id="container">
+                <a href="marvel-riot.html"><img itemprop="image" src="img/ashe.jpg" alt="Comic Ashe"></a>
+                    <h2 itemprop="name">Riot Games y Marvel Comics se alían para lanzar un cómic de Ashe</h2>
+                    <p itemprop="description">Riot Games y Marvel Comics se alían para sacar contenido relacionado con League of Legends, Ashe.</p>
+                    
+                </div>
+                
+                <div id="container">
+                    <a href="Himno.html"><img itemprop="image" src="img/colombia.png" alt="Bandera de Colombia"></a>
+                    <h2 itemprop="name">Himno De Colombia</h2>
+                    <p itemprop="description">Himno Nacional de Colombia</p>
+                    
+                </div>
 
-        <div id="container">
-           <a href="grinch.html"><img itemprop="image" src="img/portadaGrinch.jpg" alt="El Grinch"></a>
-            <h2 itemprop="name">Imágenes Del Grinch 2018</h2>
-            <p itemprop="description">He aquí os traigo algunas imágenes del Grinch la película 2018</p>
-            
-        </div>
-        
-        <div id="container">
-           <a href="marvel-riot.html"><img itemprop="image" src="img/ashe.jpg" alt="Comic Ashe"></a>
-            <h2 itemprop="name">Riot Games y Marvel Comics se alían para lanzar un cómic de Ashe</h2>
-            <p itemprop="description">Riot Games y Marvel Comics se alían para sacar contenido relacionado con League of Legends, Ashe.</p>
-            
-        </div>
-        
-        <div id="container">
-            <a href="Himno.html"><img itemprop="image" src="img/colombia.png" alt="Bandera de Colombia"></a>
-             <h2 itemprop="name">Himno De Colombia</h2>
-             <p itemprop="description">Himno Nacional de Colombia</p>
-             
-         </div>
+                <div id="container">
+                    <a href="Descargar.html"><img itemprop="image" src="img/download.jpg" alt="Descargar"></a>
+                    <h2 itemprop="name">Como descargar música o videos de Youtube</h2>
+                    <p itemprop="description">Descargar música y videos de Youtube de maneras muy fáciles y 
+                        sin descargar aplicaciones.
+                    </p>
+                    
+                </div>
 
-         <div id="container">
-            <a href="Descargar.html"><img itemprop="image" src="img/download.jpg" alt="Descargar"></a>
-             <h2 itemprop="name">Como descargar música o videos de Youtube</h2>
-             <p itemprop="description">Descargar música y videos de Youtube de maneras muy fáciles y 
-                sin descargar aplicaciones.
-             </p>
-             
-         </div>
+                <div id="container">
+                    <a href="Monument.html"><img itemprop="image" src="img/monument.jpg" alt="Monument Valley"></a>
+                    <h2 itemprop="name">Recomendación #1: Monument Valley</h2>
+                    <p itemprop="description">La recomendación de hoy es Monument valley un gran juego móvil</p>
+                    
+                </div>
 
-         <div id="container">
-            <a href="Monument.html"><img itemprop="image" src="img/monument.jpg" alt="Monument Valley"></a>
-             <h2 itemprop="name">Recomendación #1: Monument Valley</h2>
-             <p itemprop="description">La recomendación de hoy es Monument valley un gran juego móvil</p>
-             
-         </div>
-
-         <div id="container">
-            <a href="github-hostinger.html"><img itemprop="image" src="img/web-design.png" alt="Dominio"></a>
-             <h2 itemprop="name">Configurar un Dominio Hostinger con Github Pages</h2>
-             <p itemprop="description">Acabas de comprar un dominio en Hostinger y quieres configurarlo para que este funcione
-                con Github pages</p>
-             
-         </div>
+                <div id="container">
+                    <a href="github-hostinger.html"><img itemprop="image" src="img/web-design.png" alt="Dominio"></a>
+                    <h2 itemprop="name">Configurar un Dominio Hostinger con Github Pages</h2>
+                    <p itemprop="description">Acabas de comprar un dominio en Hostinger y quieres configurarlo para que este funcione
+                        con Github pages</p>
+                </div>
         
     </section>
 
     <footer>
-        <p class="footertext"> Pagina hecha por <span itemprop="publisher">Snowboll</span>. <a href="Condicionesdeuso.html">CONDICIONES DE USO</a> </p>
+        <p class="footertext">Pagina hecha por <span itemprop="publisher">Snowboll</span>. <a href="Condicionesdeuso.html">CONDICIONES DE USO</a> </p>
     </footer>
 
     <script src="js/input.js"></script>
