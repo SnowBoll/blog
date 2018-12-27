@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+}
+
+.header::before {
+    content: "";
+    height: 50vh;
+    width: 100%;
+    /* background-image: url(#); */
+    background-color: coral;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+
+/* grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#contenedor img {
+    height: auto;
+    width: 90%;
+    border-radius: 9px;
+}
+
+#contenedor {
+    margin: 4%;
+}
+
+    @media screen and (max-width: 700px) {
+
+    }   
+
+    @media screen and (max-width: 500px) {
+
+
+    }
+    

@@ -33,6 +33,13 @@ header {
     color: white;
 }
 
+.logo {
+    margin: auto;
+    width: 60px;
+    position: relative;
+    top: 20px;
+    left: 0;
+}
 
  /* contenedor de todos los posts */
 .container {
@@ -113,10 +120,10 @@ p{
 
 @media screen and (max-width: 662px) {
 
-    h2 {
-        font-size: 10px;
+ h2 {
+    font-size: 10px;
     }
-    p {
+p {
     font-size: 7px;
     
 }
@@ -133,5 +140,12 @@ p{
 }
 .grid {
     grid-gap: 5px;
+}
+
+.logo {
+    width: 10%;
+    position: relative;
+    top: 10px;
+    left: 0;
 }
 }
